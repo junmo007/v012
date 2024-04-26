@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<!-- <link rel="stylesheet" type="text/css" href=""/> -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport"
+			content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="keywords" content="FOOTBALL">
+		<meta name="apple-mobile-web-app-status-bar-style" id="metaBarStyle" content="#1e1739">
+		<meta name="apple-mobile-web-app-title" id="metaAppTitle" content="<%= htmlWebpackPlugin.options.title %>">
+		<meta name="theme-color" content="#1e1739" id="topBoxStyle">
+		<title>
+			<%= htmlWebpackPlugin.options.title %>
+		</title>
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+			});
+			// dynamic environment star
+			let reqUrl = window.location.protocol + "//api." + parseDomain(window.location.host);
+
+			function parseDomain(str) {
+				if (!str) return '';
+				if (str.indexOf('://') != -1) str = str.substr(str.indexOf('://') + 3);
+				var topLevel = ['com', 'net', 'org', 'gov', 'edu', 'mil', 'biz', 'name', 'info', 'mobi', 'pro', 'travel',
+					'museum', 'int', 'areo', 'post', 'rec', 'live'
+				];
+				var domains = str.split('.');
+				if (domains.length <= 1) return str;
+				if (!isNaN(domains[domains.length - 1])) return str;
+				var i = 0;
+				while (i < topLevel.length && topLevel[i] != domains[domains.length - 1]) i++;
+				if (i != topLevel.length) return domains[domains.length - 2] + '.' + domains[domains.length - 1];
+				else {
+					i = 0;
+					while (i < topLevel.length && topLevel[i] != domains[domains.length - 2]) i++;
+					if (i == topLevel.length) return domains[domains.length - 2] + '.' + domains[domains.length - 1];
+					else return domains[domains.length - 3] + '.' + domains[domains.length - 2] + '.' + domains[domains.length -
+						1];
+				}
+			};
+			window.localStorage.setItem('reqUrl_api', reqUrl);
+		</script>
+		<style>
+			#loading-mask {
+				position: fixed;
+				left: 0;
+				top: 0;
+				height: 100%;
+				width: 100%;
+				min-height: 100vh;
+				user-select: none;
+				z-index: 9999;
+				overflow: hidden;
+				background: #1e1739;
+			}
+
+			.loading-wrapper {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				text-align: center;
+				align-items: center;
+			}
+			
+		</style>
+		<link rel="stylesheet" href="<%= BASE_URL %>./static/index.<%= VUE_APP_INDEX_CSS_HASH %>.css" />
+	</head>
+
+	<body>
+		<noscript>
+			<strong>Please enable JavaScript to continue.</strong>
+		</noscript>
+		<div id="app">
+			<div id="loading-mask">
+				<div class="loading-wrapper">
+					<img src="./static/images/index/logo.png" style="width: 72px;height: 44px;"/>
+				</div>
+			</div>
+		</div>
+		<!-- built files will be auto injected -->
+	</body>
+
+</html>

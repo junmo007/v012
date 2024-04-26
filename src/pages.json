@@ -1,0 +1,576 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/market/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/market/marketContent",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/market/martetGameList",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/market/indexVip",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/tradeing/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/tradeing/marketList",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/effTradeDetail",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/kefu",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/consultingService",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/about",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/doanload",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/bankCard",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/addBankCard",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/profile",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/grade",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/recharge",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/withdraw",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/record",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/thirdMatch",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/vip",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/vipClub",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/cashCou",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/login/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/login/forgetPwd",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/register/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/register/forget",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/hisaccount/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/hisaccount/hisDetail",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/analyst/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/gameResults/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/gameResults/progress",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/gameResults/search",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/newRegist",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/newRecharge",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/totalOrderSun",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/totalWithdrawal",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/totalBet",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/totalProfit",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/thirdPage",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/recharge",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/withdrawal",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/zhudan",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/zhudanprofit",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/team",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/teamDetail",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/betDetails",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/financialStatement",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/distributionRecord",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/rule",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/QRcode",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/promotionReward",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/activityHall/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/activityHall/activityDetail",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/activityHall/income",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/notice/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/notice/noticeDetail",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/pilot/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/pilot/pilotUser",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/msg/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/msg/msgDetail",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/rule/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/page/error",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/fund/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/fund/fundRecord",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/fund/fundDetails",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/fund/indexTest",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/luckyDraw/luckyDraw",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	} ,{
+		"path": "pages/luckyDraw/prizeRecord",
+    "style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/thirdlogin/callback",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/help/help",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/invte/invte",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/otherGame/otherGame",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/game/game",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/game/gameType",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/game/game_web",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/wsCenter/retrunCommission",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/help/AccessDenied",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/index/guide",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/sportsThird/sportsThird",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/sports/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/sports/matchDetail",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/share/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/transfer/index",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/bindPhone",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/bindLog",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/bindCertifyPwd",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/bindLoginPwd",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/bindWithdrawPwd",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/bindMail",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/openai",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/ucenter/bindCertifyPwdExamples",
+		"style": {
+			"navigationBarTitleText": "FOOTBALL",
+			"navigationStyle": "custom"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "FOOTBALL",
+		"navigationBarBackgroundColor": "#251d73",
+		"backgroundColor": "#251d73"
+	}
+}

@@ -1,0 +1,519 @@
+page {
+	--ui-color-light: #d9ecfb;
+	--hearder-bg: #1d1737;
+	--ui-color-normal: #0A9BDE;
+	--ui-color-dark: #4571FF;
+	--uni-navbar-bg: #f8f9fd;
+	--user-card-bg: #fff;
+	--bal-bar-bg: #623cea;
+	--vs-group-panel-bg: #fff;
+	--pop-color: #181616;
+	--market-vs-color: #ffffff;
+	--vs-form-easyinput__content-bg: #fcfefd;
+	--input-color: #181616;
+	--p-info-flex-bg: #fcfefd;
+	--user-tran-car-bg: #f5f3fe;
+	--v-tabs-color: rgba(0, 0, 0, .7);
+	--bs-panel-bg: #413D71;
+	--top-link-tabs-bg: #302985;
+	--rec-card-bg: #fff;
+	--u-calendar-bg: #fcfefd;
+	--s-info_flex-rlabel: #999;
+	--bs-mt-panel-bg: #fff;
+	--trade-list-card-bg: #fff;
+	--calendar-content-bg: #FFFFFF;
+	--user-info-panel-bg: #ecf0f7;
+	--pu-cell-bg: #fff;
+	--user-info-input-bg: #302985;
+	--btn--info-bg: #F7F7F7;
+	--userCarAddPop-bg: #ffffff;
+	--textPwdStyle-bg: #38359A;
+	--bs-form-hd-bg: rgba(30, 23, 57, 1);
+	--fun-list-card-bg: #fff;
+	--fun-background-color: #fff;
+	--skin-bg: #f9f9ff;
+	--invte-panel-bg: #fff;
+	--dotted-bg-1: #5D5BB2;
+	--inv-card-data-card-bg: #b9c0d9;
+	--inv-card-bg-1: #3270E0;
+	--inv-card-bg-2: #50DA1B;
+	--inv-card-bg-3: #E8CF02;
+	--team-tabel-header: #c5001e;
+	--team-tabel-bottom-header: #fff;
+	--ws-panel-bg: #fff;
+	--UI-BG-0: #1e1739;
+	--team-tabel-list-bg: #fff;
+	--uni-picker-view-mask: linear-gradient(180deg, hsla(0, 10%, 2%, .95), hsla(0, 10%, 2%, .6)), linear-gradient(0deg, hsla(0, 10%, 2%, .95), hsla(0, 10%, 2%, .6));
+	--u-picker-body-bg: #413D71;
+	--u-picker-head-bg: #312B4F;
+	--grant-item-bg: #fff;
+	--inv-numbsers-color: #c5001e;
+	--panel-bg: #fff;
+	--rec-select-flex-bg: #f9f9ff;
+	--select-collapse-bg: linear-gradient(to bottom, #3C39A0, #29217F);
+	--select-collapse-border: none;
+	--ac-rec-row-active-bg: #4D4886;
+	--sc_img_1-bg: #f9f9f9;
+	--u-line-bg: #4E4CB9;
+	--u-live-close: #000;
+
+	--index-link-card-0: linear-gradient(to right, #4FACFE, #4460E1);
+	--index-link-card-1: linear-gradient(to right, #A791F8, #623CEA);
+	--link-right-left: none;
+	--link-start-right-border: #EAE3F1;
+	--footer-margin-top: -20px;
+	--index-enters-margin-top: 50px;
+	--index-link-card-margin: -15px -15px 0 -15px;
+	--form-cells-bg: #fff;
+	--tab-card-bg: #fff;
+	--tab-card-site-head: none;
+	--news-list-bg: #fff;
+	--news-foot-bar-bg: #fff;
+	--apl-btn-footer-bg: #1E1739;
+	--index-panel_hd-more-color: #000;
+	--hd-cont-t1-color: #fff;
+	--bottom-info-bg: #fff;
+	--uc-cells-j-cell-color: #000;
+	--hall-title-color: #ffffff;
+	--hall-intro-color: #5D5BB2;
+	--boxRight-no-bg: #bb7983;
+	--no-active-color: #ff9c9c;
+	--noQuick-color: #5D5BB2;
+	--noCarBtn-yes-1: rgba(233, 174, 58, 1);
+	--noCarBtn-yes-2: rgba(233, 174, 58, 1);
+	--boxRight-activeLeft-bg1: #c5001e;
+	--boxRight-activeLeft-bg2: #bb7983;
+	--top-label-img: url(/static/images/skin/red/tt.png);
+	--uni-logo-img: url(/static/images/skin/red/logo.png);
+	--index-market-img: url(/static/images/skin/red/index-market.png);
+	--card-ico-img: url(/static/images/skin/red/card.png);
+	--trade-ico-img-a: url(/static/images/skin/red/trade-ico-a.png);
+	--trade-ico-img-b: url(/static/images/skin/red/trade-ico-b.png);
+	--trade-ico-img-c: url(/static/images/skin/red/trade-ico-c.png);
+
+	--team-user-car-level-img: url(/static/images/skin/red/team-user-car.png);
+	--hall-top-img: none;
+	/*  url(/static/images/skin/red/bar.png) */
+	--hall-card-img: url(/static/images/skin/red/hall-bg-a.png?h=1);
+	--hall-card-b-img: url(/static/images/skin/red/hall-bg-b.png);
+	--hall-card-c-img: url(/static/images/skin/red/hall-bg-c.png);
+	--hall-abs-img: url(/static/images/skin/red/line-gr.png);
+	--market-awou-top-img: url(/static/images/skin/red/index-market-top.png);
+
+	--menun-head-img: url(/static/images/skin/bluelight/menun.png?t=1);
+	--side-menu0-img: url(/static/images/skin/light/user-icon-0.png);
+	--side-menu1-img: url(/static/images/skin/light/user-icon-1.png);
+	--side-menu2-img: url(/static/images/skin/light/user-icon-2.png);
+	--side-menu3-img: url(/static/images/skin/light/user-icon-3.png);
+	--side-menu4-img: url(/static/images/skin/light/user-icon-4.png);
+	--side-menu5-img: url(/static/images/skin/light/user-icon-5.png);
+	--side-menu6-img: url(/static/images/skin/bluelight/user-1.png?u=1);
+	--side-menu7-img: url(/static/images/skin/bluelight/user-3.png);
+	--side-menu8-img: url(/static/images/skin/bluelight/user-2.png);
+	--side-menu9-img: url(/static/images/skin/bluelight/user-4.png);
+	--side-menu10-img: url(/static/images/skin/bluelight/user-5.png);
+	/* commom */
+	--body-bg: #1e1739;
+	--body-color: #ffffff;
+	--card-style: rgba(49, 43, 79, 1);
+	--card-style2: rgba(65, 61, 113, 1);
+	--card-shadow: 0px 0 12px 0px rgba(11, 8, 108, 0.05);
+	--card-radius: 16px;
+	--u-pop-border-radius: 10px 10px 0 0;
+	--font-color: linear-gradient(1deg, #594ef5 0%, #594ef5 100%);
+	--card-top-color: #fff;
+	--table-top-color: #fff;
+	--light-color: #e9ae3a;
+	--link-color: #e9ae3a;
+	--market-link-color: #2748C9;
+	--blue-color: #e9ae3a;
+	--text-red: #DF2638;
+	--gradient-color: #E9AE3A;
+	--btn-gray-color: #C4C4C4;
+	--tradeing-on-bg: #999;
+	--dark-gray-color: #4571FF;
+	--text-gray-color: #827FA5;
+	--green-light-color: #0BD38B;
+	--foot-logo: url(/static/images/skin/default/logo-foot.png);
+	--mod-color: #58567b;
+	--mod-active-color: #c3c1f4;
+	--mod-active-bg: #554ee1;
+	--text-light: #7e7a9f;
+	--page-title-color: #fff;
+	--close-color: #0F227C;
+	--close-bg: #C4C4C4;
+	--bar-bg: #09abde;
+	--bar-gradient: linear-gradient(1deg, #09abde, #09abde);
+	--doanload-bg: linear-gradient(179deg, #09abde, #09abde);
+	--bar-color: #fff;
+	--tab-item-bg: #F7F7F7;
+	--market-pop-bg: #217bf6;
+	--tab-item-color: #9792B2;
+	--palyBtn-border: 20px;
+	--palyBtnText-bg: linear-gradient(100deg, #1AEACB, #4571FF);
+	--mar-bg: #1e1739;
+	--activity-btn-bg: linear-gradient(to bottom, #0F227C 35%, #0F227C);
+	--quk-btn-bg: #2B2646;
+	--bank-0: #413D71;
+	--bank-1: #2F3E8C;
+	--bank-2: #14A17C;
+	--bank-3: #413D71;
+	--pop-top: #312B4F;
+	--pop-bottom: #312B4F;
+	--btn-other-bg: #efeffb;
+	--guid-time-bg: #217bf6;
+	--game-icon: url(/static/images/skin/default/index-ico-cup.png);
+	--quk-icon: url(/static/images/skin/default/index-ico-quk.png);
+	--ing-icon: url(/static/images/skin/default/index-ico-hot.png);
+	--loading-icon: url(/static/images/app_qiu.png);
+	--loading-text: url(/static/images/skin/light/web_name_twp.png);
+	--game-arrow-bg: #2B44B1;
+	--game-arrow-color: #fff;
+	--wallet-bg: linear-gradient(1deg, #09abde, #09abde);
+	/* 进度条 */
+	--active-color: linear-gradient(90deg, #0067f4, #0067f4);
+	--inactive-color: #324274;
+	/* 骨架 */
+	--u-skeletonA: rgba(30, 23, 57, 1);
+	--u-skeletonB: rgba(77, 72, 134, 1);
+	--index-main-bg: none;
+	/* head  foot */
+	--navbar-color: #fff;
+	--footer-bg: #ffffff;
+	--foot-nav-color: #fff;
+	--foot-info-color: #4E4CB9;
+	--foot-line-color: #f3f1fe;
+	--footer-border-radius: 20px 20px 0 0;
+	--navbar-bg: url(/static/images/skin/default/nav-bg.jpg);
+	--user-card-bg: none;
+	--aside-bg: url(/static/images/skin/bluelight/side-bg.png?t=1);
+	--menu-aside-color: #09abed;
+	--message-icon: url(/static/images/skin/bluelight/message.png);
+	--tab-text-color: linear-gradient(178deg, #3047B2 0%, #3047B2 0%, #3047B2 73.4619140625%);
+	--tab-dot-color: linear-gradient(178deg, #3047B2, #3047B2);
+	--foot-tab-icon-color: #3047B2;
+	--foot-tab-icon-active-color: #3047B2;
+	/* 登录注册 */
+	--login-banner-top-img: url(/static/images/skin/bluelight/login-top-photo.png?t=1);
+	--form-main-uni-easyinput__content: #1d1737;
+	--easyinput__border: 1px solid #604db6;
+	--uni-select__solid: none;
+	--shadow-bg: 0px 0 0 0px rgba(5, 9, 122, 0.1400);
+	--easyinput__color: #ffffff;
+	--placeholder__color: #827fa5;
+	--btn-submit-bg-1: #2B44B1;
+	--btn-submit-bg-2: #2B44B1;
+	--btn--submit--shadow: 0px 8px 26px 0px rgba(46, 115, 255, 0.1);
+	--doanload-color-1: rgba(233, 174, 58, 1);
+	--doanload-color-2: #4571FF;
+	--border-color: #644cbd;
+	--uni-select-bg: #3C39A0;
+	--uni-select__selector-item-active: #217bf6;
+	--uni-select__selector-bg: #302b4d;
+	--disabled-color: #e5e4ff;
+	--disabled-bg: #251D73;
+	--top-close-bg: #d3d2ff;
+	/* 弹窗 */
+	--bs-popup-bg: #1E1739;
+	--bs-popup-hd: #1E1739;
+	/* tabbar */
+	--tabbar-bg: linear-gradient(0deg, #ffffff, #ffffff);
+	/* 赛事中心 */
+	--lenueg-class-bg: #251D73;
+	--u-search-bg: #38359a;
+	--leagueListPop-bg: #251D73;
+	--time-color: #6865FF;
+	--market-span-zd-color: #ffffff;
+	--market-span-kd-color: #ffffff;
+	--market-name-color: #fff;
+	--tab-active: linear-gradient(178deg, #217bf6, #217bf6);
+
+	--neay-union-a: linear-gradient(to bottom, #0D1D71, #15339F);
+	--neay-union-b: linear-gradient(to bottom, #0D1D71, #15339F);
+	--neay-union-c: linear-gradient(to bottom, #0D1D71, #15339F);
+	/* --neay-union-a: linear-gradient(178deg, #1AEACB, #2252EC);
+	--neay-union-b: linear-gradient(178deg, #6865FF, #2871FA);
+	--neay-union-c: linear-gradient(178deg, rgba(40, 113, 250, 0.96), rgba(37, 29, 115, 0.96)); */
+	--quk-bg: #4571FF;
+	/* 微商 */
+	--dist-top-bg: url(/static/images/skin/bluelight/distribution-top-bg.png?t=2);
+	--data-bg-a: #3270E0;
+	--data-bg-b: #50DA1B;
+	--data-bg-c: #E9D002;
+	--data-bg-d: #2B44B1;
+	--ret-card-bg: #2F2BB1;
+	--fun-team-bg: #ffffff;
+	--circle-bg: #dde2ed;
+	--ws-popup-bg-1: url('/static/images/skin/default/wsPop1.png');
+	--ws-popup-bg-2: url('/static/images/skin/default/wsPop2.png');
+	--ws-popup-bg-3: url('/static/images/skin/default/wsPop3.png');
+	--picker-border-color: #f9f9f9;
+	--tab-radius: 22px;
+	--team-lv-color1: #0a9bde;
+	--team-lv-color2: #1e7af5;
+	--team-lv-color3: #5a43f5;
+	--ws-day-bg: #4e4cb9;
+	--ws-dot-bg: #623CEA;
+	--calendar-active-bg: #666ffd;
+	--rangeBgColor-bg: rgba(102, 111, 253, 0.13);
+	/* 基金 */
+	--gradient-data-img: url(/static/images/skin/bluelight/fund_top-bg.png);
+	--fundData-card: url(/static/images/skin/bluelight/fundData-card.png);
+	--yellow-color: linear-gradient(-4deg, #EBBD64 5.908203125%, #ECBA8F 35.9130859375%, #E7B188 69.1650390625%, #FACD79 95.9716796875%);
+	--btn-left: #fff;
+	--btn-left-color: #0a9bde;
+	--btn-right: #0a9bde;
+	--btn-right-color: #fff;
+	--popup-tm-panel-bg: #F6F7F8;
+	/* 邀请 */
+	--invte-banner-img: url(/static/images/skin/default/inv-banner.jpg);
+	--inv-bar-bg: linear-gradient(to bottom, #FDE1AE, #E3A881);
+	--inv-bar-border-color: #def4fe;
+	--inv-btn-bg: #4571FF;
+	--fun-bar-bg: #4571ff;
+	--fun-bar-color: #1AEACB;
+	/* 游戏 */
+	--game-type-1: url(/static/images/skin/light/type-all.png);
+	--faq-bg: #f4f4fc;
+	--b-border: #f4f4f4;
+	--b-border2: #f4f4f4;
+	/* 注单 */
+	--status-cancel: #FC5337;
+	--status-over: #4571ff;
+	--revokeBtn-bg: #f4f4f4;
+	--revokeBtn-color: #fff;
+	--arrow-bg: url(/static/images/skin/default/youjiantou.png);
+	--vs-middle-color: #ffffff;
+	/* 首页修改 */
+	--game_top-color: #000;
+	--bar-gradient-1: #fff;
+	--u-pop-boradi: 20;
+	--loading-third-bg: #3a347e;
+	--game-pop-vs-bg: url("/static/images/skin/bluelight/game-popup-top.png");
+	--team-bar-left-bg: #0a9bde;
+	--team-bar-right-bg: #864cdf;
+	--tra-topbar-bg: #d11816;
+	/* FB APP */
+	--sports-index-tabs-active-bg: #fff;
+	--sports-top-tabs-bg: #5E72BB;
+	--sports-index-item-bg: #fff;
+	--sports-index-item-bd: 8px;
+	--sports-locking-k-bg: #F7F7F7;
+	--sports-rightTms-bg: #3270E0;
+	--sports-rightTms-bd: 10px;
+	--sports-item-bottom-top-bg: #3270E0;
+	--sports-item-bottom-top-bd: 10px;
+	--sports-details-btn-bg-2: #2B44B1;
+	--sports-detail-item-data-bd: 50px;
+	--sports-details-btn-bg-1: #F7F7F7;
+	--sports-color-fb-skin: #324AB3;
+	--sports-color-fb-skin-bd: 8px;
+	--sports-details-payOrder-bg: #F7F8F9;
+	--sports-compter-left-bg: #F6F7F8;
+	--psorts-compter-box-value-bg: #fff;
+	--psorts-compter-box-value-bd: 50px;
+	--psorts-compter-box-value-color: #000;
+	--sports-matchDetail-vs-color: #FEE5B1;
+	--match-tab-match-select-bg: #3270E0;
+	--sports-details-bg: transparent;
+	--sports--details-tab-active: #3270E0;
+	--sports-detail-item-data-bg: #F6F7F8;
+	/* pc-色系 */
+	--pc-n-tab_item-active: #306DF0;
+	--pa-skin-color: #306DF0;
+	--login-tabs-item-active: #306DF0;
+	--pu-cell-box-shadow: 0 0 13px rgba(0, 0, 0, 0.081);
+	--help-left-select-bg: #111D41;
+	--left-select-active-item-bg: #306DF0;
+	--pc-inv-body-bg: linear-gradient(to bottom, #0D1C70, #15339F);
+	--inv-card-data: #1B3FAE;
+	--pc-inv-card-data-bg: #09102A;
+	--main-skin-color: #fff;
+	--pc-game-tabs-border: #15172A;
+	--pc-game-tabs-active: #2B44B1;
+	--pc-main-cell-bg: #1d1737;
+	--pc-tm-table-thead-bg: #282E46;
+	--h_60-bg: #111B3F;
+	--h_30-bg: #091523;
+	--w_20-bg: #111B3F;
+	--w_20-color: #fff;
+	--reg-btn-bg: #306DF0;
+	--right-reg-bg: #282E46;
+	--pc-bank-card-add-bg: #306DF0;
+	--btn--info-acitve-color: #4571FF;
+	--market-pc-list-bg: #09102A;
+	--pc-highlight-color: #306DF0;
+	--pc-results-uni-select-bg: #090A1C;
+	--pc-results-uni-select-color: #fff;
+	--pc-results-uni-select-selector-bg: #090A1C;
+	--pc-results-uni-select-selector-active-bg: #141633;
+	--pc-top-searcch-bg: #090A1C;
+	--market-box-bg: #616b89;
+	--bs-table-header-bg: #282E46;
+	--bs-table-header-color: #D9DADD;
+	--bs-table-bottom-item-bg: rgba(65, 61, 113, 1);
+	--quickly-mar-tabs-active-bg: #306DF0;
+	--quickly-mar-tabs-bg: #090A1C;
+	--quickly-mar-tabs-border: #191C2F;
+	--mark-bet-bg: #E9AE3A;
+	--market-top-info-bg: #1B214B;
+	--pc-index-item-bg: linear-gradient(to right, #09102A, #09102A);
+	--pc-index-market-item-top-bg: #1C295C;
+	--pc-index-market-item-bottom-bg: #09102A;
+	--game_time-bg-color: rgb(233, 174, 58);
+	--game_time-color: #fff;
+	--pc-mar-tabs-color: #2C65DF;
+	--pc-mar-tabs-border: #0A336A;
+	--user-menu-item-bg: #09102A;
+	--user-menu-item-border: #101A3E;
+}
+
+/* 单独色系修改 */
+.index-panel_hd .panel-ico {
+	width: 0 !important;
+	height: 0 !important;
+	margin-right: 0 !important;
+}
+
+.uni-navbar .header-menun {
+	width: 20px !important;
+}
+
+/* .mes-icon {
+	background-color: #f666ae;
+	padding: 5px;
+	border-radius: 8px;
+} */
+
+.coming .left .left-img1 {
+	color: #fff !important;
+	background: #0f110e !important;
+}
+
+.coming .left .left-img2 {
+	color: #fff !important;
+	background: #0f110e !important;
+}
+
+.panel-ft-more {
+	color: #fff;
+	border-radius: 8px;
+	background-color: #0a9bde;
+	box-shadow: 0px 3px 3px #0a9bde;
+}
+
+.panel-ft-more .badge {
+	color: #fff;
+	border-radius: 4px !important;
+	padding: 0 10px !important;
+	background-color: #f666ae !important;
+}
+
+.banner-top .banner-top-img {
+	background-color: #1787ed;
+	background-size: 100% 100% !important;
+}
+
+.form-cells {
+	border-radius: 30px 30px 0 0;
+	/* background-color: #f3f7ff; */
+}
+
+.menu-container {
+	/* padding: calc(35px + constant(safe-area-inset-top)) 16px 20px 16px; */
+	/* padding: calc(35px + env(safe-area-inset-top)) 16px 20px 16px; */
+	padding-top: constant(safe-area-inset-top);
+	padding-top: env(safe-area-inset-top);
+}
+
+.bluelight {
+	padding: 0 16px 20px;
+	background-color: #fff;
+	border-radius: 15px 15px 0 0;
+}
+
+.menu-container .user-cell {
+	padding: 0 16px 16px 16px;
+}
+
+.menu-container .user-card {
+	background-color: #1e7af5;
+	margin: 0 16px 20px 16px;
+}
+
+.data-dropdown-select .select-item.active {
+	color: #fff;
+}
+
+.trade-list-card .tra-heading .col {
+	color: #fff !important;
+}
+
+.trade-list-card .tra-heading .col .text-gray {
+	color: #fff !important;
+}
+
+.distriRecord {
+	width: 18px;
+	height: 23px;
+	background-image: url('@/static/images/skin/bluelight/distriRecordIcon.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.dis-card .dis-val {
+	color: #fff !important;
+}
+
+.light_blue {
+	background: var(--ret-card-bg);
+	color: #fff;
+	border-radius: var(--card-radius);
+	line-height: 1;
+	padding: 15px;
+	font-size: 12px;
+	min-height: 70px;
+	position: relative;
+	z-index: 3;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.light_blue .mun {
+	font-size: 15px;
+	font-weight: bold;
+	z-index: 3;
+}
+
+.light_blue .nam {
+	font-size: 13px;
+	z-index: 3;
+}
+
+.light_blue .rightimg {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	right: 5px;
+	top: 10px;
+	z-index: 1;
+	background-image: url('@/static/images/skin/bluelight/vipIcon.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+
+.bs-foot-button .btn {
+	color: none !important;
+}
+
+.profile-panel .rz-cell {
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #F6F7F8;
+}
+
+.notice-border {
+	border-radius: 8px !important;
+}
